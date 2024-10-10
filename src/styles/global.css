@@ -1,0 +1,28 @@
+/* src/styles/global.css */
+
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  font-family: 'Arial', sans-serif; /* Choose a readable font */
+  background-color: #ffffff; /* Background color */
+  color: #333333; /* Text color */
+  line-height: 1.6;
+}
+
+/* Main content area */
+.main-content {
+  padding: 20px;
+  min-height: calc(100vh - 160px); /* Adjust based on header and footer height */
+}
+
+/* Utility classes */
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

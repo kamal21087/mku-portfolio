@@ -1,0 +1,56 @@
+/* src/styles/Contact.css */
+
+.contact {
+  padding: 20px;
+}
+
+.contact h2 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group label {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-group .input-error {
+  border-color: red;
+}
+
+.error-message {
+  color: red;
+  font-size: 12px;
+}
+
+.contact__info {
+  margin-top: 20px;
+}
+
+.contact__info a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contact__info a:hover {
+  text-decoration: underline;
+}
