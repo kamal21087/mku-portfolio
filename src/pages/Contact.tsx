@@ -1,6 +1,6 @@
 // src/pages/Contact.tsx
 import React, { useState } from 'react';
-import '../styles/Contact.css'; // Create this for page-specific styles
+import '../styles/Contact.css';
 
 const Contact: React.FC = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
