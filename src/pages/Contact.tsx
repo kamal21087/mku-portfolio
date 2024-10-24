@@ -95,8 +95,8 @@ const Contact: React.FC = () => {
         <button type="submit">Send Message</button>
       </form>
       <div className="contact__info">
-        <p>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></p>
-        <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+        <p>Email: <a href="mailto:mkuddin87@gmail.com">mkuddin87@gmail.com</a></p>
+        <p>Phone: <a href="tel:+18626213342">+1 (862) 621-3342</a></p>
       </div>
     </section>
   );
